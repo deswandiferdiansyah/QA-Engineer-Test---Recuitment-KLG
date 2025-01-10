@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Go to Homepage</name>
+   <name>label_Confirmation</name>
    <tag></tag>
    <elementGuidId>9d16ae2f-d27f-4c77-b5ad-d9be226a0543</elementGuidId>
    <selectorCollection>

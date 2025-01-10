@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Book Appointment</name>
+   <name>btn_BookAppointment</name>
    <tag></tag>
    <elementGuidId>55aea9db-1f94-4a92-a327-6dc533299ad6</elementGuidId>
    <selectorCollection>

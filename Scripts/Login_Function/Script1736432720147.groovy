@@ -17,23 +17,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/')
-
-WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/btn_menu'))
-
-WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/a_Login'))
-
-WebUI.setText(findTestObject('Object Repository/Page_CURA Healthcare Service/input_Username'), 'John Doe')
-
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_CURA Healthcare Service/input_Password'), 'g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM')
-
-WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/btn_Login'))
-
-WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/btn_menu'))
-
-WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/a_Logout'))
-
-WebUI.closeBrowser()
+void login(String username, String password) {
+	WebUI.click(findTestObject('Page_CURA Healthcare Service/btn_Menu'))
+	WebUI.click(findTestObject('Page_CURA Healthcare Service/a_Login'))
+	WebUI.setText(findTestObject('Page_CURA Healthcare Service/input_Username'), username)
+	WebUI.setEncryptedText(findTestObject('Page_CURA Healthcare Service/input_Password'), password)
+	WebUI.click(findTestObject('Page_CURA Healthcare Service/btn_Login'))
+}
 

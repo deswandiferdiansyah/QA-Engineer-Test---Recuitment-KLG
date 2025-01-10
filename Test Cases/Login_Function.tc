@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Appitment</name>
+   <name>Login_Function</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>66880750-0280-4673-b48a-252353dbd5e8</testCaseGuid>
+   <testCaseGuid>7383b726-1277-41f9-a359-752d6125b399</testCaseGuid>
 </TestCaseEntity>
